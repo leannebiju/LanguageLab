@@ -10,8 +10,8 @@ int chars = 0, words = 0, lines = 0;
 . {chars++;}
 %%
 
-int main(void)
-{yylex();
-printf("lines : %d\nWords : %d\nCharacters: %d\n", lines, words, chars);
-return 0;
+int main(void){
+	yylex();
+	printf("lines : %d\nWords : %d\nCharacters: %d\n", lines, words, chars);
+	return 0;
 }

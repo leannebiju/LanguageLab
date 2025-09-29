@@ -4,6 +4,7 @@
 #include<stdio.h>
 int id = 0, key = 0, words = 0, op = 0;
 %}
+
 %%
 for|if|while|do|void|int|double|float|printf {key++; words++;}
 "+"|"-"|"*"|"/"|"=" {op++; words++;}
@@ -13,11 +14,12 @@ for|if|while|do|void|int|double|float|printf {key++; words++;}
 [ \t\n]+ ;
 . ;
 %%
-int main(void)
-{yylex();
-printf("id : %d\n", id);
-printf("keywords : %d\n", key);
-printf("words : %d\n", words);
-printf("operators : %d\n", op);
-return 0;
+
+int main(void){
+	yylex();
+	printf("id : %d\n", id);
+	printf("keywords : %d\n", key);
+	printf("words : %d\n", words);
+	printf("operators : %d\n", op);
+	return 0;
 }

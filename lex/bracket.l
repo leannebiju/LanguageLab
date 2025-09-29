@@ -2,12 +2,13 @@
 %{
 #include<stdio.h>
 %}
+
 %%
 [{] {printf("BEGIN");}
 [}] {printf("END");}
 %%
 
-int main(void)
-{yylex();
-return 0;
+int main(void){
+	yylex();
+	return 0;
 }
