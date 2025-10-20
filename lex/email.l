@@ -7,7 +7,7 @@ int valid = 0;
 
 %%
 
-[a-zA-Z]+[a-zA-Z0-9]*(@)[a-z]+(.com) {valid = 1; return 0;}
+[a-zA-Z][a-zA-Z0-9]*@[a-z]+\.com {valid = 1; return 0;}
 .|\n {return 0;}
 
 %%
