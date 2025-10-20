@@ -54,3 +54,58 @@ void main()
 		printf("Invalid String\n");
 	
 }
+
+
+/**
+
+alternate code : not sure 
+
+#include<stdio.h>
+#include<string.h>
+
+void main(){
+	char inp[100];
+	int state = 0;
+	printf("Enter binary string : ");
+	scanf("%s", inp);
+	for(int i = 0; i<strlen(inp); i++){
+		char c = inp[i];
+		switch(state){
+			case 0: if(c == '0')
+					state = 1;
+				else if(c == '1')
+					state = 0;
+				else 
+					state = -1;
+				break;
+			case 1: if(c == '0')
+					state = 2;
+				else if(c == '1')
+					state = 1;
+				else 
+					state = -1;
+				break;
+			case 2: if(c == '1')
+					state = 3;
+				else 
+					state = -1;
+				break;
+			case 3: if(c == '0')
+					state = 1;
+				else if(c == '1')
+					state = 3;
+				else 
+					state = -1;
+				break;
+			default: state = -1;
+		}
+	}
+	
+	if(state == 0 || state == 1 || state == 3)
+		printf("Valid");
+	else 
+		printf("Invalid");
+}
+
+
+*/
