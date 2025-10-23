@@ -7,3 +7,4 @@
 7. Accept the string of pattern a^m b^n c^p where 1<=m<=2 n>=2 1<=p<=2
 8. a^m b^n where m+n is odd
 9. YACC - if else
+10. write a lex program which takes an input c file and (a) copies to output file with changing int to float (b) count identifiers with length more than 5 (c) count no of statements.
