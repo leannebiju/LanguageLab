@@ -1,0 +1,9 @@
+1. Lex program to count capital, small letters, number of words, lines, total characters and string containing bbb substring
+2. Accept strings starting and ending with same Symbol (0/1) 
+3. Accept strings with odd no. Of a's and even no. of b's
+4. Write a lex program to identify and count the number of arithmetic, relational and logical operations in a given c program file
+5. YACC - identifiers
+6. Write lex program to accept valid email address
+7. Accept the string of pattern a^m b^n c^p where 1<=m<=2 n>=2 1<=p<=2
+8. a^m b^n where m+n is odd
+9. YACC - if else
