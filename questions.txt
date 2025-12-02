@@ -8,3 +8,19 @@
 8. a^m b^n where m+n is odd
 9. YACC - if else
 10. write a lex program which takes an input c file and (a) copies to output file with changing int to float (b) count identifiers with length more than 5 (c) count no of statements.
+11. Take from file and count no of words with vowel count>2, Count no of words with length>5, Count no of words with no vowels, Count no of words, Count no of lines
+12. a^m b^n c^p where m>=2, n<=2, p<=2
+13. Read input from file and count the number of words, lines, characters, small letters, capital letters, special character and strings beginning with aa and ending with bb
+14. YACC - switch statement
+15. DFA for a string over {0, 1, 2} where every 2 is immediately followed by a 0
+16. YACC - validate function definition
+
+Viva:
+1. What does Lexical analyser give to syntax analyser?
+2. What is the technique used in parsing?
+3. What is the role of DFA in compilation?
+4. Is regular expression a grammar, difference?
+5. Is grammar used in semantic analysis?
+6. Types of parsers
+7. Disadvantages of top-down parser
+8. What does parser do?
