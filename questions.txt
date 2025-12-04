@@ -14,6 +14,8 @@
 14. YACC - switch statement
 15. DFA for a string over {0, 1, 2} where every 2 is immediately followed by a 0
 16. YACC - validate function definition
+17. dfa 01 string with 00 and 11
+18. YACC - logical expression
 
 Viva:
 1. What does Lexical analyser give to syntax analyser?
@@ -24,3 +26,14 @@ Viva:
 6. Types of parsers
 7. Disadvantages of top-down parser
 8. What does parser do?
+9. How code optimisation improve efficiency 
+10. Slowest phase 
+11. Simplest phase
+12. What all are the use of lexical analyser
+13. LL1? is it a grammar?
+14. How for loop is read in lex
+15. What all does the lexical analyser do?
+16. Difference between syntax tree and parse tree
+17. Gave an expression, asked to draw syntax and parse tree
+18. Lexical analysis output language? Other than that language, any other language output available? 
+19. Multiple entries in table, reason? How to eliminate? 
